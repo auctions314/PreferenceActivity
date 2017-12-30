@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="設定">
+        <EditTextPreference
+            android:key="bg_color"
+            android:title="背景色"
+            android:dialogTitle="背景色" />
+        <EditTextPreference
+            android:key="font_color"
+            android:title="フォント色"
+            android:dialogTitle="フォント色" />
+    </PreferenceCategory>
+</PreferenceScreen>
